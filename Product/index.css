@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* Main CSS */
+#container {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+#main {
+    background-color: #2d2d2e;  
+    border-radius: 10px; 
+    margin: auto;
+    border: solid #03a606;
+}
+#timer {
+    text-align: center;
+    padding: 10px;
+}
+.clock {
+    color:#03a606;
+    font-size: 60px;
+}
+#function {
+    text-align: center;
+}
+.function__button {
+    font-size: 20px;
+    color: #ddd;
+    background-color:#242624;
+    border-radius: 16px;
+    border-color: #eee;
+    border: 2px solid;
+}
+
+                            /* Example CSS */
+
+/* .timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}     */
