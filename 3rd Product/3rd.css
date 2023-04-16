@@ -1,0 +1,47 @@
+#mainPage {
+    background-color: #ccc;
+    border: 3px solid;
+    border-radius: 12px;
+}
+.gameText {
+    text-align: center;
+}
+#Player {
+    color: #31ff2e;
+}
+#Computer {
+    color: #f21818;
+}
+#Result {
+    color: #212020;
+}
+#playerChoice {
+    text-align: center;
+}
+.choiceBtn {
+    font-size: 20px;
+    padding: 5px;
+    width: 60px;
+    border: 3px solid;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+                                /* Example CSS */
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+#gameDiv{
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
