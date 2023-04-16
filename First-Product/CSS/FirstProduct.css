@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+.col-2 {
+    width: 50%;
+    margin: 20px;
+}
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5rc0odLJdsFRLPp9MLSiWol72-t19lSh1w&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.btn {
+    flex-grow:1;
+    margin: 0px;
+    font-size: 5em;
+    font-weight: bold;
+    height: 36px;
+    width: 34px;
+}
+.btn-50 {
+    flex-grow:1;
+    margin: 0px;
+    font-size: 5em;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+}
+/* main css */
+.container {
+    margin: 10px 30px;
+}
+.gameBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #fff;
+}
+.header {
+    height: 46px;
+    text-align: center;
+}
+.title {
+    display: inline-block;
+    font-size: 45px;
+}
+.header__open {
+    float: right;
+    line-height: 46px;
+    font-size: 25px;
+    padding: 0 16px;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+.mainContent {
+    margin-top: 15px;
+
+}
+.settingContent {
+    width: 100%;
+    display: flex;  
+    margin: auto;
+    /* margin-left: 100px; */
+    margin-right: 100px;
+    justify-content:center ;
+    align-items: center;
+    flex-direction:column;
+}
+.colorBoard {
+    justify-content: center;
+}
+.buttonSettingBoard {
+    width: 50%;
+    text-align: center;
+    /* position: fixed; */
+    z-index: 1;
+    background-color: #fff;
+    bottom: 0;
+    margin: auto;
+
+    
+}
+.buttonSetting {
+    margin-bottom: 40px;
+}
+.colorBoard__chooseColor {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.colorBoard__description {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.reset {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    background-color: #ccc;
+    margin: 0 12px;
+}
+/* end main Css */
+.modal {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-self: center;
+    flex-direction:column;
+    display: flex;
+
+}
+.close {
+    margin-top: 16px;
+    font-size: 25px;
+}
+/* Phần chỉnh màu */
+.color-0 { background-color: rgba(25, 25, 200, 0.795);}
+.color-1 { background-color:rgb(224, 41, 41); ;}
+.color-2 { background-color:rgb(247, 164, 11) ;}
+.color-3 { background-color: rgba(13, 229, 13, 0.79);}
+.color-4 { background-color: rgba(192, 18, 192, 0.784);}
+.color-5 { background-color: rgb(249, 144, 162);}
+.color-6 { background-color: rgba(43, 43, 240, 0.452);}
+.color-7 { background-color:rgba(237, 222, 92, 0.768) ;}
+.color-8 { background-color: ghostwhite;}
+.color-9 { background-color: rgba(1, 1, 1, 0.853);}
+.color-10 { background-color:rgb(137, 36, 36) ;}
+.color-11 { background-color: skyblue;}
+
+
